@@ -4,9 +4,14 @@ body {
     margin-top: 75px;
 }
 
+a{
+    text-decoration:none;
+    background-color:grey;
+}
+
 a:hover{
 	text-decoration: underline;
-	color: blue;
+	color: black;
 }
 .center {
     text-align: center;

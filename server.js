@@ -26,7 +26,7 @@ app.get('/test', function (req, res) {
         {
             res.status(500).send(err.ToString());
         }else{
-            res.send(JSON.stringify(result));
+            res.send(JSON.stringify(result.rows));
         }
     });
 });
